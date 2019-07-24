@@ -1,0 +1,175 @@
+
+
+.everything {
+  border: 1px solid purple;
+}
+
+.pics {
+  border: 1px solid orange;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img{
+  max-width:300px;
+  height:auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid Green;
+}
+
+#logo {
+  font-family: 'Barriecito', cursive;
+  font-size: 400%;
+}
+
+#searchbar {
+  display: flex;
+  flex-direction: row-reverse;
+  /* margin-top: 70px; */
+}
+
+#profilepic {
+  border-radius: 50%;
+  border: 1px solid orange;
+  width: 150px;
+  height: 150px;
+  margin-right: 70px;
+}
+
+#username {
+  font-size: 170%;
+}
+
+.toppage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid green;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.infocard {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid orange;
+  font-family: 'Abel', sans-serif;
+}
+
+.personalinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid purple;
+  margin-right: 30px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid purple;
+}
+
+.stalkstats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid pink;
+  margin-right: 30px;
+}
+
+.cyberstats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid pink;
+}
+
+.middlepage {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 2px solid green;
+}
+
+.stalkedbox {
+  /* width: 1000px;
+  height: 500px; */
+  border: 3px solid orange
+}
+
+.caughtbox {
+  border: 2px solid orange
+}
+
+#stalked {
+  display: flex;
+  justify-content: center;
+  border: 1px solid purple;
+  font-family: 'Special Elite', cursive;
+  font-size: 270%;
+}
+
+.stalkedphotos {
+  /* display: flex;
+  justify-content: center; */
+  /* flex-wrap: wrap; */
+  border: 1px solid purple;
+
+}
+
+#caught {
+  display: flex;
+  justify-content: center;
+  border: 1px solid purple;
+  font-family: 'Special Elite', cursive;
+  font-size: 270%;
+}
+
+.caughtbox {
+  border: 1px solid purple;
+}
+
+.caughtphotos {
+  border: 1px solid purple;
+}
+  /* display: flex;
+  justify-content: center;
+
+
+
+
+
+
+
+
+/* h1 {
+  margin-left: 5%;
+}
+
+#profilepic {
+  height: 20%;
+  width: 20%;
+  margin-top: 15%;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+#username {
+  display: inline-block;
+
+}
+
+.infocard {
+  display: inline-block;
+  margin-left: 10px;
+} */
